@@ -1,0 +1,4 @@
+仓库地址：registry.cn-heyuan.aliyuncs.com
+账号：1715wkspace
+密码：1715wkspace
+镜像地址：docker pull registry.cn-heyuan.aliyuncs.com/fast_deploy/ubuntu-20.04:1.0
