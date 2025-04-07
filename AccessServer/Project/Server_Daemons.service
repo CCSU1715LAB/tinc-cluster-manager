@@ -1,0 +1,11 @@
+[Unit]
+Description=JiuYang_Daemons Service                                              
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/tmp/access_daemons.sh
+ExecStop=/bin/bash /root/tmp/access_daemons_quit.sh
+StandardOutput=syslog
+StandardError=inherit
+[Install]
+WantedBy=multi-user.target
+
